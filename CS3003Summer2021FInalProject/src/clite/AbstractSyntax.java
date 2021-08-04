@@ -254,6 +254,7 @@ class ArrayDecl extends Declaration {
 class Type {
     // Type = int | bool | char | float | void
     final static Type INT = new Type("int");
+    final static Type YARP = new Type("yarp");	//new
     final static Type BOOL = new Type("bool");
     final static Type CHAR = new Type("char");
     final static Type FLOAT = new Type("float");
